@@ -1,15 +1,16 @@
 {
-  "name": "d3-plugins-sankey",
-  "version": "0.0.0",
+  "name": "geotime-sankey",
+  "version": "0.1.0",
   "authors": [
-    "Bruno Perel <brunope@qliro.local>"
+    "Bruno Pérel <brunoperel@gmail.com>"
   ],
-  "license": "MIT",
+  "license": "CC-BY-SA-2.0",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "bower_components"
+  ],
+  "dependencies": {
+    "d3-plugins-sankey": "~1.1.0"
+  }
 }

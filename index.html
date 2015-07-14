@@ -40,16 +40,21 @@
 
             var path = sankey.link();
 
-            d3.json("territoriesSankey.json", function (energy) {
+            d3.json("territoriesSankey.json", function (territories) {
 
                 sankey
-                        .nodes(energy.nodes)
-                        .links(energy.links)
+                        .nodes(territories.nodes)
+                        .links(territories.links)
                         .layout(32);
 
                 var link = svg.append("g").selectAll(".link")
-                        .data(energy.links)
+                        .data(territories.links)
                         .enter().append("path")
+                        .each(function(d) {
+                            if (d.causesCycle) {
+                                console.log('The link ('+ d.source.name+'-'+d.target.name+') causes a cycle');
+                            }
+                        })
                         .attr("class", function(d) {
                             return ["link", d.causesCycle ? "cycle" : ""].join(" ");
                         })
@@ -67,7 +72,7 @@
                         });
 
                 var node = svg.append("g").selectAll(".node")
-                        .data(energy.nodes)
+                        .data(territories.nodes)
                         .enter().append("g")
                         .attr("class", "node")
                         .attr("transform", function (d) {

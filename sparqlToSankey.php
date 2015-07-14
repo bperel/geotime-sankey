@@ -6,37 +6,56 @@ $nodes = array();
 $links = array();
 
 $territoryNames = array();
+$territoryLinks = array();
+
 foreach($territories as $territory) {
-    $territoryNames[]=$territory->name->value;
-    $currentTerritoryIndex = count($territoryNames) - 1;
+    $territoryName = $territory->name->value;
+    $dates = implode(' to ', array($territory->date1->value, $territory->date2->value));
+    $territoryNames[$territoryName]=$dates;
 
     $previousTerritories = explode('|', $territory->previous->value);
     foreach($previousTerritories as $previousTerritory) {
         if (!empty($previousTerritory)) {
-            $previousTerritoryIndex = array_search($previousTerritory, $territoryNames);
-            if ($previousTerritoryIndex === false) {
-                $territoryNames[] = $previousTerritory;
-                $previousTerritoryIndex = count($territoryNames) - 1;
+            $previousTerritoryExists = array_key_exists($previousTerritory, $territoryNames);
+            if ($previousTerritoryExists) {
+                $territoryNames[$previousTerritory] = 'unknown';
             }
-            $links[] = array('source' => $previousTerritoryIndex, 'target' => $currentTerritoryIndex, 'value' => 1);
+            $territoryLinks[] = array($previousTerritory, $territoryName);
         }
     }
 
     $nextTerritories = explode('|', $territory->next->value);
     foreach($nextTerritories as $nextTerritory) {
         if (!empty($nextTerritory)) {
-            $nextTerritoryIndex = array_search($nextTerritory, $territoryNames);
+            $nextTerritoryIndex = array_key_exists($nextTerritory, $territoryNames);
             if ($nextTerritoryIndex === false) {
-                $territoryNames[] = $nextTerritory;
-                $nextTerritoryIndex = count($territoryNames) - 1;
+                $territoryNames[$nextTerritory] = 'unknown';
             }
-            $links[] = array('source' => $currentTerritoryIndex, 'target' => $nextTerritoryIndex, 'value' => 1);
+            $territoryLinks[] = array($territoryName, $nextTerritory);
         }
     }
 }
 
-$nodes = array_map(function($territoryName) {
-    return array('name' => $territoryName);
-}, $territoryNames);
+foreach($territoryNames as $territoryName => $dates) {
+    $nodes[] = array('name' => $territoryName, 'dates' => $dates);
+}
+
+foreach($territoryLinks as $territoryLink) {
+    $source = null;
+    $target = null;
+
+    foreach($nodes as $i=>$node) {
+        if ($node['name'] === $territoryLink[0]) {
+            $source = $i;
+        }
+        else if ($node['name'] === $territoryLink[1]) {
+            $target = $i;
+        }
+        if (!is_null($source) && !is_null($target)) {
+            $links[] = array('source' => $source, 'target' => $target, 'value' => 1);
+            break;
+        }
+    }
+}
 
 file_put_contents('territoriesSankey.json', json_encode(array('nodes' => $nodes, 'links' => $links), JSON_PRETTY_PRINT));
