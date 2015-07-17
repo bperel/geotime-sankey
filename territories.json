@@ -142,6 +142,56 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Anglo-Corsican Kingdom"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1794"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1796"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "French First Republic"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "French First Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Arkansas Territory"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1819"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1836"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Missouri Territory"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Arkansas|Unorganized territory"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Atropatene"
                 },
                 "date1": {
@@ -236,6 +286,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Austria-Hungary|Kingdom of Italy"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Avar Khanate"
+                },
+                "date1": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Early 13th century"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1864"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Sarir"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Russian Empire"
                 }
             },
             {
@@ -567,6 +642,131 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "British Honduras"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1862"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1981-09-21"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Colony of Jamaica"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Belize"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "British Leeward Islands"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1833"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1958"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Anguilla|Antigua|Barbuda|British Virgin Islands|Dominica|Montserrat|Nevis|Saint Kitts"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "British Virgin Islands|West Indies Federation"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "British North America"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1783"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1907"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "British America"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Canada|Dominion of Newfoundland"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "British West Florida"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1763"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1783"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Louisiana|Spanish Florida"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Spanish West Florida"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "British Windward Islands"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1833"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1958"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "British Dominica|British Grenada|British Saint Lucia|British St. Vincent and the Grenadines|British Tobago|Colony of Barbados"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "West Indies Federation"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Bulgarian Empire"
                 },
                 "date1": {
@@ -636,6 +836,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Ottoman Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Captaincy General of Santo Domingo"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1493"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1795"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Chiefdoms of Hispaniola"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "French occupation of Santo Domingo|Saint-Domingue"
                 }
             },
             {
@@ -831,11 +1056,61 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Duchy of Cleves|Duchy of J\u00FClich|Electorate of Cologne|Electorate of Mainz|Electorate of Trier|Electorate of the Palatinate|Free City of Aachen"
+                    "value": "Duchy of Cleves|Duchy of Jülich|Electorate of Cologne|Electorate of Mainz|Electorate of Trier|Electorate of the Palatinate|Free City of Aachen"
                 },
                 "next": {
                     "type": "literal",
                     "value": "First French Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Colony of Jamaica"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1655-05-10"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1962-08-06"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Captaincy General of Guatemala|Spanish Jamaica|Spanish West Indies|Turks and Caicos Islands"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Bay Islands DepartmentBay Islands|British Honduras|Cayman Islands|Jamaica|Turks and Caicos Islands"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Colony of Santiago (Jamaica)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1509"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1655"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Cayman Islands|Jamaica"
                 }
             },
             {
@@ -1117,6 +1392,56 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Crown of Aragon"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1162"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1716"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "County of Barcelona|Kingdom of Aragon"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Enlightenment Spain|Habsburg Monarchy|Kingdom of Sicily under Savoy"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Crown of Castile"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1230"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1516"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Castile|Kingdom of León|Kingdom of Navarre"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Habsburg Spain"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Czechoslovakia"
                 },
                 "date1": {
@@ -1136,6 +1461,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Czech Republic|Slovakia|Zakarpattia Oblast"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Danish West Indies"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1754"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1917"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Danish West India Company"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "United States Virgin Islands"
                 }
             },
             {
@@ -1167,6 +1517,81 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Despotate of Epirus"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1205"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1479"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Byzantium under the Angeloi"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Ottoman Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "District of Louisiana"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1804"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1805"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Louisiana Purchase"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Louisiana Territory"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Dominion of New England"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1686"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1689"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Colony of Rhode Island and Providence Plantations|Connecticut Colony|Massachusetts Bay Colony|Plymouth Colony|Province of East Jersey|Province of New Hampshire|Province of New York|Province of West Jersey"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Colony of Rhode Island and Providence Plantations|Connecticut Colony|Massachusetts Bay Colony|Plymouth Colony|Province of East Jersey|Province of New Hampshire|Province of New York|Province of West Jersey"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Don Republic"
                 },
                 "date1": {
@@ -1186,6 +1611,131 @@
                 "next": {
                     "type": "literal",
                     "value": "Don Host Oblast|Donetsk Oblast"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Duchy of Aquitaine"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "602"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1453"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Francia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of France"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Duchy of Brittany"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "939"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1547"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Brittany"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of France"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Duchy of Inowrocław"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1267"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1364"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Duchy of Kuyavia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Inowrocław Voivodeship"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Duchy of Masovia"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1138"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1526"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Poland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Masovian Voivodeship"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Duchy of Mirandola"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1310"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1710"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Holy Roman Empire"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Duchy of Modena and Reggio"
                 }
             },
             {
@@ -1317,7 +1867,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Empire of China (1915\u201316)"
+                    "value": "Empire of China (1915–16)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -1331,11 +1881,11 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Beiyang Government|H\u00F3ngxi\u00E0n|Zh\u014Dnghu\u00E1 D\u00ECgu\u00F3|Zh\u014Dnghu\u00E1 D\u00ECgu\u00F3 D\u00E0 Hu\u00E1ngd\u00EC"
+                    "value": "Beiyang Government|Hóngxiàn|Zhōnghuá Dìguó|Zhōnghuá Dìguó Dà Huángdì"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Beiyang Government|\u4E2D\u534E\u5E1D\u56FD|\u4E2D\u534E\u5E1D\u56FD\u5927\u7687\u5E1D|\u6D2A\u5BAA"
+                    "value": "Beiyang Government|中华帝国|中华帝国大皇帝|洪宪"
                 }
             },
             {
@@ -1411,6 +1961,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Byzantine Empire under the Macedonian dynasty|Second Bulgarian Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "First French Empire"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1804"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1815"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Enlightenment in SpainKingdom of Spain|French First Republic|Holy Roman Empire|Kingdom of Holland|Ligurian Republic"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Austrian Empire|Bourbon RestorationKingdom of France|Grand Duchy of Tuscany|Kingdom of Sardinia|LuxembourgGrand Duchy of Luxembourg|Mid-nineteenth century SpainKingdom of Spain|Neutral Moresnet|Sovereign Principality of the United NetherlandsPrincipality of the Netherlands|United Kingdom of the Netherlands"
                 }
             },
             {
@@ -1592,6 +2167,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Francoist Spain"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1936"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1975"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Second Spanish Republic"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Spain"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Free City of Danzig (Napoleonic)"
                 },
                 "date1": {
@@ -1642,7 +2242,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Free Imperial City of Besan\u00E7on"
+                    "value": "Free Imperial City of Besançon"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -1660,7 +2260,7 @@
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Free City of Besan\u00E7on"
+                    "value": "Free City of Besançon"
                 }
             },
             {
@@ -1842,6 +2442,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "French acquisition of Santo Domingo"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1795"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1809"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Captaincy General of Santo Domingo"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "España Boba"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Gallic Empire"
                 },
                 "date1": {
@@ -1931,11 +2556,11 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Alsace-Lorraine|Grand Duchy of Baden|Grand Duchy of Hesse|Kingdom of Bavaria|Kingdom of Prussia|Kingdom of W\u00FCrttemberg|North German Confederation"
+                    "value": "Alsace-Lorraine|Grand Duchy of Baden|Grand Duchy of Hesse|Kingdom of Bavaria|Kingdom of Prussia|Kingdom of Württemberg|North German Confederation"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Eupen-Malmedy|Free City of Danzig|Hlu\u010D\u00EDn Region|Klaip\u0117da Region|Republic of Alsace-Lorraine|Saar|Second Polish Republic|South Jutland CountyNorthern Schleswig|Weimar Republic"
+                    "value": "Eupen-Malmedy|Free City of Danzig|Hlučín Region|Klaipėda Region|Republic of Alsace-Lorraine|Saar|Second Polish Republic|South Jutland CountyNorthern Schleswig|Weimar Republic"
                 }
             },
             {
@@ -2067,6 +2692,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Grand Duchy of Moscow"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1283"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1547"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Grand Duchy of Tver|Great Perm|Novgorod Republic|Principality of Ryazan|Vladimir-Suzdal"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Tsardom of Russia"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Gupta Empire"
                 },
                 "date1": {
@@ -2192,7 +2842,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Hungarian Republic (1919\u201320)"
+                    "value": "Hungarian Republic (1919–20)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -2361,6 +3011,56 @@
                 "next": {
                     "type": "literal",
                     "value": "Electorate of Bavaria"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Independent State of Croatia"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1941"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1945"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Yugoslavia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Socialist Federal Republic of Yugoslavia"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Irish Free State"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1922-12-06"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1937-12-29"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "United Kingdom of Great Britain and Ireland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Republic of Ireland"
                 }
             },
             {
@@ -2567,6 +3267,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Kingdom of Arles"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "933"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1378"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Lower Burgundy|Upper Burgundy"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "County of Burgundy|County of Savoy"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Kingdom of Bosnia"
                 },
                 "date1": {
@@ -2592,6 +3317,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Kingdom of Bulgaria"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1908-09-22"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1946-09-15"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Principality of Bulgaria"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "People's Republic of Bulgaria"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Kingdom of Castile"
                 },
                 "date1": {
@@ -2606,11 +3356,111 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Kingdom of Le\u00F3n|Kingdom of Navarre"
+                    "value": "Kingdom of León|Kingdom of Navarre"
                 },
                 "next": {
                     "type": "literal",
                     "value": "Crown of Castile"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Corsica (1736)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1736"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1736"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Republic of Genoa"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Republic of Genoa"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Cyprus"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1192"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1489"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Byzantine Empire"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Republic of Venice"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of England"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "10"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1707-05-01"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Northumbria|Powys Fadog|Powys Wenwynwyn|Principality of Wales|Wessex"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Great Britain"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Finland (1918)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1918"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1919"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Finland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Finland"
                 }
             },
             {
@@ -2642,6 +3492,181 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Kingdom of France (1791–92)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1791"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1792"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of France"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "French First Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Galicia and Lodomeria"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1772-08-05"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1918-11-14"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Duchy of Warsaw|Free City of Kraków|Moldavia|Polish–Lithuanian Commonwealth"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Duchy of Bukovina|Second Polish Republic|West Galicia|West Ukrainian People's Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Georgia"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1008"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1490"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Emirate of Tbilisi|Kingdom of Abkhazia|Principate of Iberia|Seljuq Armenia|Tao-Klarjeti"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Imereti|Kingdom of Kakheti|Kingdom of Kartli"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Great Britain"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1707"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1801"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of England|Kingdom of Scotland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "United Kingdom of Great Britain and Ireland"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Greece"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1832"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1974"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "First Hellenic Republic|Hellenic State|Second Hellenic Republic"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Greek military junta of 1967–1974|Hellenic State|Second Hellenic Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Gwent"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "5"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1063"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Glywysing#Morgannwg|Roman Britain"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Glywysing#Morgannwg"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Holland"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1806"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1810"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Batavian Republic"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "First French Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Kingdom of Hungary"
                 },
                 "date1": {
@@ -2667,7 +3692,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Kingdom of Hungary (1526\u20131867)"
+                    "value": "Kingdom of Hungary (1526–1867)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -2692,7 +3717,132 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Kingdom of Le\u00F3n"
+                    "value": "Kingdom of Imereti"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1260"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1810-02-20"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Georgia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Russian Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Italy (Napoleonic)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1805"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1814"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "First French Empire|Italian Republic|Papal States|Venetian Province"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Duchy of Modena|Kingdom of Lombardy–Venetia|Kingdom of Sardinia|Papal States"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Kakheti"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1465"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1762"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Georgia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Kartli-Kakheti"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Kartli (1484–1762)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1466"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1762"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Georgia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Kartli-Kakheti"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Kartli-Kakheti"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1762"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1800-12-18"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Kakheti|Kingdom of Kartli"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Georgia Governorate|Russian Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of León"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -2711,6 +3861,31 @@
                 "next": {
                     "type": "literal",
                     "value": "County of Portugal|Crown of Castile"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Lithuania"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1251-07-17"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1263"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Balts|Duchy of Lithuania"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Grand Duchy of Lithuania"
                 }
             },
             {
@@ -2792,6 +3967,131 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Kingdom of Navarre"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "824"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1620"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Duchy of Gascony"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Crown of Castile|Early modern France"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Poland (1385–1569)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1385"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1569"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Poland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Polish–Lithuanian Commonwealth"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Portugal"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1139"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1910"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "County of Portugal|Couto Misto"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Empire of Brazil|First Portuguese Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Powys"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "5"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1160"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "sub-Roman Britain"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Powys Fadog|Powys Wenwynwyn"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Romania"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1881"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1947"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Bessarabia Governorate|Bukovina|Kingdom of Bulgaria|Partium|Transylvania|United Principalities"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Bulgaria|Moldavian Soviet Socialist Republic|Socialist Republic of Romania|Ukrainian Soviet Socialist Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Kingdom of Sardinia"
                 },
                 "date1": {
@@ -2842,6 +4142,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Kingdom of Sicily"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1130"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1816"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "County of Sicily"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "History of Malta under the Order of Saint John|Kingdom of the Two Sicilies"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Kingdom of Toledo"
                 },
                 "date1": {
@@ -2861,6 +4186,31 @@
                 "next": {
                     "type": "literal",
                     "value": "New Castile"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kingdom of Württemberg"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1806"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1918"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Electorate of Württemberg"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Free People's State of Württemberg"
                 }
             },
             {
@@ -2942,7 +4292,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Kru\u0161evo Republic"
+                    "value": "Kruševo Republic"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -3006,7 +4356,7 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "L\u00E1nf\u0101ng G\u00F2ngh\u00E9gu\u00F3"
+                    "value": "Lánfāng Gònghéguó"
                 },
                 "next": {
                     "type": "literal",
@@ -3056,11 +4406,36 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "H\u00F2u Zh\u014Du|Later Han"
+                    "value": "Hòu Zhōu|Later Han"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Song Dynasty|\u540E\u5468"
+                    "value": "Song Dynasty|后周"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Latin Empire"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1204"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1261"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Byzantine Empire"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Byzantine Empire under the Palaiologos dynasty"
                 }
             },
             {
@@ -3081,7 +4456,7 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Bergell|Chur|Domleschg|F\u00FCnf D\u00F6rfer|Oberengadin|Oberhalbstein|Poschiavo|Schams|Unterengadin"
+                    "value": "Bergell|Chur|Domleschg|Fünf Dörfer|Oberengadin|Oberhalbstein|Poschiavo|Schams|Unterengadin"
                 },
                 "next": {
                     "type": "literal",
@@ -3142,7 +4517,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Lithuanian\u2013Belorussian Soviet Socialist Republic"
+                    "value": "Lithuanian–Belorussian Soviet Socialist Republic"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -3161,6 +4536,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Byelorussian Soviet Socialist Republic|Republic of Lithuania|Second Polish Republic"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Lordship of Ireland"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1171"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1542"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Gaelic Ireland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of Ireland"
                 }
             },
             {
@@ -3186,6 +4586,81 @@
                 "next": {
                     "type": "literal",
                     "value": "Duchy of Lower Lorraine|Duchy of Upper Lorraine"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Louisiana (New Spain)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1762"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1802"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Louisiana"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Louisiana"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Louisiana Territory"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1805"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1812"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "District of Louisiana"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Missouri Territory"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Marquisate of Finale"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "967"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1602"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": ""
                 }
             },
             {
@@ -3261,6 +4736,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Kingdom of Arles|Kingdom of Italy|Lotharingia"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Missouri Territory"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1812"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1821"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Louisiana Territory"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Missouri|Territory of Arkansas|Unorganized territory"
                 }
             },
             {
@@ -3367,6 +4867,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "New France"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1534"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1760"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Louisiana Louisiana|Newfoundland Newfoundland|Nova Scotia|Province of Quebec Province of Quebec"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "New Kingdom of Egypt"
                 },
                 "date1": {
@@ -3386,6 +4911,106 @@
                 "next": {
                     "type": "literal",
                     "value": "Kingdom of Kush|Third Intermediate Period of Egypt"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "New Netherland"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1614"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1664"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Colony of Rhode Island and Providence Plantations|Connecticut Colony|Delaware Colony|Province of New Jersey|Province of New York|Province of Pennsylvania"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "New Netherland"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1614"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1673"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Colony of Rhode Island and Providence Plantations|Connecticut Colony|Delaware Colony|Province of New Jersey|Province of New York|Province of Pennsylvania"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "New Spain"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1519"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1821"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Aztec Triple Alliance|Governorate of Cuba|Indigenous peoples of the Americas|Kingdom of Maynila|Kingdom of Tondo|Kingdom of Tzintzuntzan|Louisiana|Maya Civilization|Rajahnate of Cebu"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "First Mexican Empire|Florida Territory|Louisiana|Native Americans in the United States|Oregon Country|Provincial deputation in Mexico|Spanish East Indies|Spanish West Indies"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "New Sweden"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1638"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1655"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "New Netherland|Susquehannock"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "New Netherland"
                 }
             },
             {
@@ -3456,11 +5081,11 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Denmark\u2013Norway"
+                    "value": "Denmark–Norway"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Sweden\u2013Norway"
+                    "value": "Sweden–Norway"
                 }
             },
             {
@@ -3642,7 +5267,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Polish\u2013Lithuanian Commonwealth"
+                    "value": "Polish–Lithuanian Commonwealth"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -3661,6 +5286,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Kingdom of Galicia and Lodomeria|Kingdom of Prussia|Russian Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Principality of Abkhazia"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1463"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://dbpedia.org/datatype/second",
+                    "value": "1570.0"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": ""
                 }
             },
             {
@@ -3842,6 +5492,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Principality of Lucca and Piombino"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1805-06-23"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1814-03-03"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Duchy of Massa and Carrara|Principality of Piombino|Republic of Lucca"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Grand Duchy of Tuscany"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Principality of Mingrelia"
                 },
                 "date1": {
@@ -3917,7 +5592,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Principality of R\u00FCgen"
+                    "value": "Principality of Rügen"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -3956,7 +5631,7 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Bishopric of M\u00FCnster|County of Anholt"
+                    "value": "Bishopric of Münster|County of Anholt"
                 },
                 "next": {
                     "type": "literal",
@@ -3986,6 +5661,56 @@
                 "next": {
                     "type": "literal",
                     "value": "Grand Duchy of Lithuania"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Province of Canada"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1841"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1867"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Lower Canada|Upper Canada"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Canada"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Province of Quebec (1763–91)"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1763"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1791"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Canada, New France"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Lower Canada|Northwest Territory|Upper Canada"
                 }
             },
             {
@@ -4167,7 +5892,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Republic of China (1912\u201349)"
+                    "value": "Republic of China (1912–49)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -4181,11 +5906,11 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Gu\u00F3m\u00EDn G\u00E9m\u00ECng J\u016Bn|Qing Dynasty|Zh\u014Dnghu\u00E1 M\u00EDngu\u00F3"
+                    "value": "Guómín Gémìng Jūn|Qing Dynasty|Zhōnghuá Mínguó"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "China|Mongolian People's Republic|Taiwan|\u4E2D\u534E\u6C11\u56FD|\u56FD\u6C11\u9769\u547D\u519B"
+                    "value": "China|Mongolian People's Republic|Taiwan|中华民国|国民革命军"
                 }
             },
             {
@@ -4292,7 +6017,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Republic of Indonesia (1949\u201350)"
+                    "value": "Republic of Indonesia (1949–50)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -4742,6 +6467,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Russian America"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1799"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1867"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Alaska Natives"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Department of Alaska"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Russian Democratic Federative Republic"
                 },
                 "date1": {
@@ -4835,7 +6585,57 @@
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Bishopric of \u00D6sel-Wiek|Livonian branch of the Teutonic Order"
+                    "value": "Bishopric of Ösel-Wiek|Livonian branch of the Teutonic Order"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Saint Christopher-Nevis-Anguilla"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1958"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1983"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Republic of Anguilla|West Indies Federation"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Anguilla|Republic of Anguilla|Saint Kitts and Nevis"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Saint-Domingue"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1625"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1804"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Captaincy General of Santo Domingo"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "First Empire of Haiti"
                 }
             },
             {
@@ -4931,7 +6731,7 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Centralist Republic of Mexico|Republic of Sonora|Republic of Yucat\u00E1n"
+                    "value": "Centralist Republic of Mexico|Republic of Sonora|Republic of Yucatán"
                 },
                 "next": {
                     "type": "literal",
@@ -4956,7 +6756,7 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "French Second Republic|Nguy\u1EC5n Dynasty|Ottoman Algeria"
+                    "value": "French Second Republic|Nguyễn Dynasty|Ottoman Algeria"
                 },
                 "next": {
                     "type": "literal",
@@ -5135,14 +6935,14 @@
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Despotate of Epirus|Despotate of Velbazhd|District of Brankovi\u0107|Kingdom of Prilep|Moravian Serbia|Nikola Altomanovi\u0107|Principality of Zeta"
+                    "value": "Despotate of Epirus|Despotate of Velbazhd|District of Branković|Kingdom of Prilep|Moravian Serbia|Nikola Altomanović|Principality of Zeta"
                 }
             },
             {
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Slovak Republic (1939\u201345)"
+                    "value": "Slovak Republic (1939–45)"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -5236,6 +7036,56 @@
                 "next": {
                     "type": "literal",
                     "value": "Provisional Revolutionary Government of the Republic of South Vietnam"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Spain under Joseph Bonaparte"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1808"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1813"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Bourbon Spain"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "History of Spain"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Spanish West Indies"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1492"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1898"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "New Spain"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Bay Islands DepartmentBay Islands|Cayman Islands|Colony of Jamaica|Dominican Republic|Puerto Rico|Saint-Domingue|Trinidad|United States Protectorate over Cuba"
                 }
             },
             {
@@ -5567,6 +7417,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Territory of Orleans"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1804"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1812"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Louisiana Purchase"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Louisiana"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "The Protectorate"
                 },
                 "date1": {
@@ -5581,11 +7456,11 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Commonwealth of England#1649\u20131653|Kingdom of Scotland"
+                    "value": "Commonwealth of England#1649–1653|Kingdom of Scotland"
                 },
                 "next": {
                     "type": "literal",
-                    "value": "Commonwealth of England#1659\u20131660"
+                    "value": "Commonwealth of England#1659–1660"
                 }
             },
             {
@@ -5792,7 +7667,7 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
-                    "value": "Tu\u02BBi Tonga Empire"
+                    "value": "Tuʻi Tonga Empire"
                 },
                 "date1": {
                     "type": "typed-literal",
@@ -5891,6 +7766,31 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "United Kingdom of Great Britain and Ireland"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1801-01-01"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1922-12-06"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Kingdom of Great Britain|Kingdom of Ireland"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Irish Free State|United Kingdom"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "United Kingdom of the Netherlands"
                 },
                 "date1": {
@@ -5960,6 +7860,31 @@
                 "next": {
                     "type": "literal",
                     "value": "German South-West Africa"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Upper Canada"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1791-12-26"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1841-02-10"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Province of Quebec"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "United Province of Canada"
                 }
             },
             {
@@ -6041,6 +7966,56 @@
                 "name": {
                     "type": "literal",
                     "xml:lang": "en",
+                    "value": "Viceroyalty of New Granada"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1717-05-27"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "value": "1819-08-07"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "New Kingdom of Granada"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Captaincy General of Venezuela|Gran Colombia|Trinidad and Tobago"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Viscounty of Béarn"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "9"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1620"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Kingdom of France"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
                     "value": "Visigothic Kingdom"
                 },
                 "date1": {
@@ -6060,6 +8035,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Francia|Kingdom of Asturias|Umayyad Caliphate"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Vladimir-Suzdal"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1157"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1331"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Grand Principality of Kiev"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Grand Duchy of Moscow"
                 }
             },
             {
@@ -6160,6 +8160,31 @@
                 "next": {
                     "type": "literal",
                     "value": "Florida Territory|Mississippi Territory|Republic of West Florida|Territory of Orleans"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "West Indies Federation"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1958"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1962"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "British Leeward Islands|British Trinidad|British Windward Islands|Colony of Barbados|Colony of Jamaica(British Jamaica)"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Antigua and Barbuda|Barbados(Barbados)|Cayman Islands(Cayman Islands)|Dominica(Dominica)|Grenada(Grenada)|Jamaica(Jamaica)|Montserrat(Montserrat)|Saint Christopher-Nevis-Anguilla|Saint Lucia(Saint Lucia)|Saint Vincent and the Grenadines|Trinidad and Tobago|Turks and Caicos Islands"
                 }
             },
             {
@@ -6280,11 +8305,36 @@
                 },
                 "previous": {
                     "type": "literal",
-                    "value": "Liao Dynasty|Song Dynasty|X\u012B Xi\u00E0"
+                    "value": "Liao Dynasty|Song Dynasty|Xī Xià"
                 },
                 "next": {
                     "type": "literal",
                     "value": "Mongol Empire"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Württemberg"
+                },
+                "date1": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "11"
+                },
+                "date2": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "1918"
+                },
+                "previous": {
+                    "type": "literal",
+                    "value": "Duchy of Swabia"
+                },
+                "next": {
+                    "type": "literal",
+                    "value": "Free People's State of Württemberg"
                 }
             }
         ]
