@@ -10,14 +10,18 @@ SELECT DISTINCT
   . ?e <http://dbpedia.org/property/yearEnd> ?date2_1
   . FILTER(
       LANG(?name)='en' AND
-       (  ?subject = <http://dbpedia.org/resource/Category:Former_countries_in_Europe>
+       (
+          ?subject = <http://dbpedia.org/resource/Category:Former_empires>
+       OR ?subject = <http://dbpedia.org/resource/Category:Former_kingdoms>
+       OR ?subject = <http://dbpedia.org/resource/Category:Former_republics>
+       OR ?subject = <http://dbpedia.org/resource/Category:Former_countries_in_Europe>
        OR ?subject = <http://dbpedia.org/resource/Category:Former_empires_of_Europe>
        OR ?subject = <http://dbpedia.org/resource/Category:Former_monarchies_of_Europe>
        OR ?subject = <http://dbpedia.org/resource/Category:Former_organized_territories_of_the_United_States>
-       OR ?subject = <http://dbpedia.org/resource/Category:Former_empires>
-       OR ?subject = <http://dbpedia.org/resource/Category:Former_republics>
+       OR ?subject = <http://dbpedia.org/resource/Category:Former_socialist_republics>
        OR ?subject = <http://dbpedia.org/resource/Category:States_and_territories_established_in_1814>
        OR ?subject = <http://dbpedia.org/resource/Category:Former_colonies_in_North_America>
+       OR ?subject = <http://dbpedia.org/resource/Category:Former_monarchies_of_North_America>
        )
     )
   . OPTIONAL {
