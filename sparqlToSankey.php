@@ -16,8 +16,7 @@ foreach($territories as $territory) {
     $previousTerritories = explode('|', $territory->previous->value);
     foreach($previousTerritories as $previousTerritory) {
         if (!empty($previousTerritory)) {
-            $previousTerritoryExists = array_key_exists($previousTerritory, $territoryNames);
-            if ($previousTerritoryExists) {
+            if (!array_key_exists($previousTerritory, $territoryNames)) {
                 $territoryNames[$previousTerritory] = 'unknown';
             }
             $territoryLinks[] = array($previousTerritory, $territoryName);
@@ -28,7 +27,7 @@ foreach($territories as $territory) {
     foreach($nextTerritories as $nextTerritory) {
         if (!empty($nextTerritory)) {
             $nextTerritoryIndex = array_key_exists($nextTerritory, $territoryNames);
-            if ($nextTerritoryIndex === false) {
+            if (!array_key_exists($nextTerritory, $territoryNames)) {
                 $territoryNames[$nextTerritory] = 'unknown';
             }
             $territoryLinks[] = array($territoryName, $nextTerritory);
