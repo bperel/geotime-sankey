@@ -5,12 +5,15 @@
     "Bruno Pérel <brunoperel@gmail.com>"
   ],
   "license": "CC-BY-SA-2.0",
+  "main": [
+    "js/sankey.js"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components"
   ],
   "dependencies": {
-    "d3-plugins-sankey": "~1.1.0"
+    "d3": "3"
   }
 }
