@@ -167,6 +167,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Annam (French protectorate)"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1884"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1949"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Empire of Vietnam|Nguy\u1EC5n Dynasty"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Empire of Vietnam|State of Vietnam"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Arkansas Territory"
 		},
 		"date1": {
@@ -186,6 +211,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Arkansas|Unorganized territory"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Armenian Kingdom of Cilicia"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1198"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1375"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Bagratid Armenia|Byzantine Empire under the Angelos dynasty|Seljuq Armenia"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Mamluk Sultanate"
 		}
 	  },
 	  {
@@ -336,6 +386,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": ""
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Ayutthaya Kingdom"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1351"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1767"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Lavo kingdom|Nakhon Si Thammarat Kingdom"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Thonburi Kingdom"
 		}
 	  },
 	  {
@@ -792,6 +867,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Bukhar Khudahs"
+		},
+		"date1": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "before 681"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://dbpedia.org/datatype/second",
+		  "value": "890.0"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Samanid Empire"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Bulgarian Empire"
 		},
 		"date1": {
@@ -967,6 +1067,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Central Powers"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1914-06-28"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1918-11-11"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": ""
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Chechen Republic of Ichkeria"
 		},
 		"date1": {
@@ -1111,6 +1236,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "First French Republic"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Colchis"
+		},
+		"date1": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "c. 13th century BC"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "164"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Colchis"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": ""
 		}
 	  },
 	  {
@@ -1386,6 +1536,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Kingdom of Greece"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Crimean Autonomous Soviet Socialist Republic"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1921"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1992"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Crimean Oblast|Crimean Regional Government|Government of South Russia"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Autonomous Republic of Crimea|Crimean Oblast|Reichskommissariat Ukraine"
 		}
 	  },
 	  {
@@ -1967,6 +2142,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Empire of Vietnam"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-03-11"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-08-23"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Cochinchina|Empire of Japan|Nguy\u1EC5n Dynasty"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Cochinchina|French Indochina|North Vietnam"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Fatimid Caliphate"
 		},
 		"date1": {
@@ -2411,6 +2611,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Electorate of Bavaria"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Free Republic of Schwarzenberg"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Nazi Germany"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Allied Occupation Zones in Germany|Soviet occupation zone"
 		}
 	  },
 	  {
@@ -3242,6 +3467,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Japanese occupation of Hong Kong"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1941-12-25"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-08-15"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "British Hong Kong"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "British Hong Kong"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Jiangxi\u2013Fujian Soviet"
 		},
 		"date1": {
@@ -3317,6 +3567,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Kazakh Khanate"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1465"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1847"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Golden Horde"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Russian Empire"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Khanate of Kazan"
 		},
 		"date1": {
@@ -3336,6 +3611,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Tsardom of Russia"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Khanate of Khiva"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1511"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1920"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Golden Horde|Timurid dynasty"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Khorezm People's Soviet Republic"
 		}
 	  },
 	  {
@@ -4617,6 +4917,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Kingdom of Pong"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1479"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Mongkawng"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Kingdom of Portugal"
 		},
 		"date1": {
@@ -4836,6 +5161,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "History of Malta under the Order of Saint John|Kingdom of the Two Sicilies"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Kingdom of Sikkim"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1642"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1975-05-16"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Sikkim"
 		}
 	  },
 	  {
@@ -5086,6 +5436,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Second Polish Republic"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Korea under Japanese rule"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1910-08-22"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-08-15"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Korean Empire"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "People's Republic of Korea|United States Army Military Government in Korea"
 		}
 	  },
 	  {
@@ -5467,6 +5842,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Manchukuo"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1932"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "D\u00E0 M\u01CEnzh\u014Du D\u00ECgu\u00F3|D\u014Dngb\u011Bi S\u0101nsh\u011Bng|M\u01CEnzh\u014Dugu\u00F3|Nationalist Government"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Soviet occupation of Manchuria|\u4E1C\u5317\u4E09\u7701|\u5927\u6EE1\u6D32\u5E1D\u56FD|\u6EE1\u6D32\u56FD"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Marquisate of Finale"
 		},
 		"date1": {
@@ -5536,6 +5936,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Italian Eritrea"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Mengjiang"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1939"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "M\u011Bngji\u0101ng|Nationalist Government"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Reorganized National Government of China|Soviet occupation of Manchuria"
 		}
 	  },
 	  {
@@ -5636,6 +6061,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Kingdom of Romania"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Mong Mao"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "560"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1604"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "M\u00E8ngy\u01CEng|M\u00F9b\u0101ng"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": ""
 		}
 	  },
 	  {
@@ -6192,6 +6642,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Nazi Germany"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1933-01-30"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-05-08"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Weimar Republic"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Allied-occupied Austria|Allied-occupied Germany|Czechoslovak Republic Czechoslovakia|Democratic Federal YugoslaviaYugoslavia|Republic of Poland Poland|Soviet Union"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Neo-Assyrian Empire"
 		},
 		"date1": {
@@ -6667,6 +7142,81 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Parthian Empire"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "247"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "224"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Seleucid Empire"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Sasanian Empire"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "People's Republic of Kampuchea"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1979"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1993"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Democratic Kampuchea|People's Republic of Kampuchea"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "People's_Republic_of_Kampuchea#Transition:_State_of_Cambodia_.281989.E2.80.931993.29|United Nations Transitional Authority in Cambodia"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "People's Republic of Kampuchea"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1989"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1993"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Democratic Kampuchea|People's Republic of Kampuchea"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "People's_Republic_of_Kampuchea#Transition:_State_of_Cambodia_.281989.E2.80.931993.29|United Nations Transitional Authority in Cambodia"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "People's Republic of Angola"
 		},
 		"date1": {
@@ -6761,6 +7311,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": ""
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Principality of Bengal"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1717"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1757"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Mughal Empire"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Company rule in India"
 		}
 	  },
 	  {
@@ -6867,6 +7442,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Principality of Farghana"
+		},
+		"date1": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "before 712"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "819"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Samanid Empire"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Principality of Guria"
 		},
 		"date1": {
@@ -6911,6 +7511,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Karabakh Khanate"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Principality of Khuttal"
+		},
+		"date1": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "before 676"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "750"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": ""
 		}
 	  },
 	  {
@@ -7117,6 +7742,56 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Principality of Ushrusana"
+		},
+		"date1": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "???"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "892"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Samanid Empire"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Protectorate of Bohemia and Moravia"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1939"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Second Czechoslovak Republic"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Third Czechoslovak Republic"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Province of Canada"
 		},
 		"date1": {
@@ -7142,6 +7817,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Province of Pomerania (1815\u20131945)"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1815"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Province of Pomerania|Swedish Pomerania"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Mecklenburg-Western Pomerania|Szczecin Voivodeship"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Province of Quebec (1763\u201391)"
 		},
 		"date1": {
@@ -7161,6 +7861,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Lower Canada|Northwest Territory|Upper Canada"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Province of Saxony"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1816"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Altmark|Duchy of Magdeburg|Electorate of Mainz|Kingdom of Saxony"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Saxony-Anhalt|Thuringia"
 		}
 	  },
 	  {
@@ -7736,6 +8461,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Baja California Territory|Sonora"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Republic of South Maluku"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1950"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1963"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Dutch East Indies"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Indonesia"
 		}
 	  },
 	  {
@@ -8417,6 +9167,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Sikh Empire"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1799"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1849"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Durrani Empire|Maratha Empire|Mughal Empire|Sikh Confederacy"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Company rule in India|Jammu and Kashmir"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Slovak Republic (1939\u201345)"
 		},
 		"date1": {
@@ -8611,6 +9386,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Bay Islands DepartmentBay Islands|Cayman Islands|Colony of Jamaica|Dominican Republic|Puerto Rico|Saint-Domingue|Trinidad|United States Protectorate over Cuba"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "State of Burma"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1943-08-01"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#date",
+		  "value": "1945-03-27"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "British rule in Burma"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "British rule in Burma"
 		}
 	  },
 	  {
@@ -8917,6 +9717,31 @@
 		"name": {
 		  "type": "literal",
 		  "xml:lang": "en",
+		  "value": "Taihoku Prefecture"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1920"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1945"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": ""
+		},
+		"next": {
+		  "type": "literal",
+		  "value": ""
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
 		  "value": "Taurida Soviet Socialist Republic"
 		},
 		"date1": {
@@ -9011,6 +9836,31 @@
 		"next": {
 		  "type": "literal",
 		  "value": "Fourth Republic of South Korea"
+		}
+	  },
+	  {
+		"name": {
+		  "type": "literal",
+		  "xml:lang": "en",
+		  "value": "Tibet (1912\u201351)"
+		},
+		"date1": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1912"
+		},
+		"date2": {
+		  "type": "typed-literal",
+		  "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+		  "value": "1951"
+		},
+		"previous": {
+		  "type": "literal",
+		  "value": "Qing Dynasty"
+		},
+		"next": {
+		  "type": "literal",
+		  "value": "Central Tibetan Administration|Tibet Autonomous Region"
 		}
 	  },
 	  {
