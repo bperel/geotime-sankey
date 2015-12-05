@@ -112,14 +112,14 @@ d3.sankey = function() {
             s_y = d.source.y + d.sy + d.dy,
             t_x = d.target.x,
             t_y = d.target.y,
+            sw_x = t_x - cycleDistFromNode,
+            sw_y = t_y + d.ty + d.dy,
             se_x = s_x + cycleDistFromNode,
             se_y = s_y,
             ne_x = se_x,
-            ne_y = cycleLaneDistFromFwdPaths - (d.cycleIndex * (smallWidth + cycleSmallWidthBuffer) ),  // above regular paths, in it's own 'cycle lane', with a buffer around it
-            nw_x = t_x - cycleDistFromNode,
-            nw_y = ne_y,
-            sw_x = nw_x,
-            sw_y = t_y + d.ty + d.dy;
+            ne_y = t_y - smallWidth - cycleSmallWidthBuffer,  // above regular paths, in it's own 'cycle lane', with a buffer around it
+            nw_x = sw_x,
+            nw_y = ne_y;
 
         // start the path on the outer path boundary
         return "M" + s_x + "," + s_y
