@@ -42,6 +42,20 @@
 
             d3.json("territoriesSankey.json", function (territories) {
 
+                territories.nodes
+                    .forEach(function(territory) {
+                        if (!!territory.dates && !isNaN(territory.dates.start) && !isNaN(territory.dates.end)) {
+                            territory.width = parseInt(territory.dates.end) - parseInt(territory.dates.start);
+                            if (territory.width < 0) {
+                                console.error('Invalid life span for territory '+territory.name+' : '+territory.width);
+                            }
+                            territory.width = Math.max(territory.width, 15);
+                        }
+                        else {
+                            territory.width = 15;
+                        }
+                    });
+
                 sankey
                     .nodes(territories.nodes)
                     .links(territories.links)
@@ -91,7 +105,9 @@
                     .attr("height", function (d) {
                         return d.dy;
                     })
-                    .attr("width", sankey.nodeWidth())
+                    .attr("width", function(d) {
+                        return d.dx;
+                    })
                     .style("fill", function (d) {
                         return d.color = color(d.name.replace(/ .*/, ""));
                     })
@@ -100,7 +116,8 @@
                     })
                     .append("title")
                     .text(function (d) {
-                        return d.name + "\n" + d.dates;
+                        return d.name
+                             + (d.dates ? ("\n" + [d.dates.start, d.dates.end].join(' - ')) : '');
                     });
 
                 node.append("text")

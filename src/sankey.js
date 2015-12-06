@@ -205,7 +205,7 @@ d3.sankey = function() {
       nextNodes = [];
       remainingNodes.forEach(function(node) {
         node.x = x;
-        node.dx = nodeWidth;
+        node.dx = node.width || nodeWidth;
         node.sourceLinks.forEach(function(link) {
           if( !link.causesCycle ) {
             nextNodes.push(link.target);

@@ -10,14 +10,14 @@ $territoryLinks = array();
 
 foreach($territories as $territory) {
     $territoryName = $territory->name->value;
-    $dates = implode(' to ', array($territory->date1->value, $territory->date2->value));
+    $dates = array('start' => $territory->date1->value, 'end' => $territory->date2->value);
     $territoryNames[$territoryName]=$dates;
 
     $previousTerritories = explode('|', $territory->previous->value);
     foreach($previousTerritories as $previousTerritory) {
         if (!empty($previousTerritory)) {
             if (!array_key_exists($previousTerritory, $territoryNames)) {
-                $territoryNames[$previousTerritory] = 'unknown';
+                $territoryNames[$previousTerritory] = array();
             }
             $territoryLinks[] = array($previousTerritory, $territoryName);
         }
@@ -28,7 +28,7 @@ foreach($territories as $territory) {
         if (!empty($nextTerritory)) {
             $nextTerritoryIndex = array_key_exists($nextTerritory, $territoryNames);
             if (!array_key_exists($nextTerritory, $territoryNames)) {
-                $territoryNames[$nextTerritory] = 'unknown';
+                $territoryNames[$nextTerritory] = array();
             }
             $territoryLinks[] = array($territoryName, $nextTerritory);
         }
@@ -36,7 +36,11 @@ foreach($territories as $territory) {
 }
 
 foreach($territoryNames as $territoryName => $dates) {
-    $nodes[] = array('name' => $territoryName, 'dates' => $dates);
+    $node = array('name' => $territoryName);
+    if (count($dates) > 0) {
+        $node['dates'] = $dates;
+    }
+    $nodes[] = $node;
 }
 
 foreach($territoryLinks as $territoryLink) {
