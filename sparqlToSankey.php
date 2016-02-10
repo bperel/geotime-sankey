@@ -1,5 +1,5 @@
 <?php
-$input = json_decode(file_get_contents('territories.json'));
+$input = json_decode(file_get_contents('territories_simple.json'));
 $territories = $input->results->bindings;
 
 $nodes = array();

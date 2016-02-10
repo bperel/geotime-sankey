@@ -1,0 +1,108 @@
+{
+	"head": {
+		"link": [],
+		"vars": [
+			"name",
+			"date1",
+			"date2",
+			"previous",
+			"next"
+		]
+	},
+	"results": {
+		"distinct": false,
+		"ordered": true,
+		"bindings": [
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Abbasid Caliphate"
+				},
+				"date1": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "750"
+				},
+				"date2": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "1517"
+				},
+				"previous": {
+					"type": "literal",
+					"value": "Umayyad Caliphate"
+				},
+				"next": {
+					"type": "literal",
+					"value": "Mamluk Sultanate|Mongol Empire"
+				},
+				"imageMap": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Abbasids850.png"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alania"
+				},
+				"date1": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "8"
+				},
+				"date2": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "1238"
+				},
+				"previous": {
+					"type": "literal",
+					"value": ""
+				},
+				"next": {
+					"type": "literal",
+					"value": "Mongol Empire"
+				},
+				"imageMap": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alania 10 12.png"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Western Xia"
+				},
+				"date1": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "1038"
+				},
+				"date2": {
+					"type": "typed-literal",
+					"datatype": "http://www.w3.org/2001/XMLSchema#integer",
+					"value": "1227"
+				},
+				"previous": {
+					"type": "literal",
+					"value": "Liao Dynasty|Song Dynasty|X\u012B Xi\u00E0"
+				},
+				"next": {
+					"type": "literal",
+					"value": "Mongol Empire"
+				},
+				"imageMap": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Song-Liao-Xixia-1111.png"
+				}
+			}
+		]
+	}
+}

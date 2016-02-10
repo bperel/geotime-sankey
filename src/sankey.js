@@ -204,7 +204,7 @@ d3.sankey = function() {
     while (remainingNodes.length) {
       nextNodes = [];
       remainingNodes.forEach(function(node) {
-        node.x = x;
+        node.x = node.xPos || x;
         node.dx = node.width || nodeWidth;
         node.sourceLinks.forEach(function(link) {
           if( !link.causesCycle ) {
@@ -244,7 +244,7 @@ d3.sankey = function() {
 
   function computeNodeDepths(iterations) {
     var nodesByBreadth = d3.nest()
-        .key(function(d) { return d.x; })
+        .key(function(d) { return parseInt(d.x / nodeWidth); })
         .sortKeys(d3.ascending)
         .entries(nodes)
         .map(function(d) { return d.values; });

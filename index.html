@@ -22,8 +22,8 @@
     <script type="text/javascript">
         function go() {
             var margin = {top: 1, right: 1, bottom: 6, left: 1},
-                width = 5000 - margin.left - margin.right,
-                height = 5000 - margin.top - margin.bottom;
+                width = 1000 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
 
             var color = d3.scale.category20();
 
@@ -39,17 +39,24 @@
                 .size([width, height]);
 
             var path = sankey.link();
+            var timeSpan = 2000;
 
             d3.json("territoriesSankey.json", function (territories) {
 
                 territories.nodes
                     .forEach(function(territory) {
-                        if (!!territory.dates && !isNaN(territory.dates.start) && !isNaN(territory.dates.end)) {
-                            territory.width = parseInt(territory.dates.end) - parseInt(territory.dates.start);
-                            if (territory.width < 0) {
-                                console.error('Invalid life span for territory '+territory.name+' : '+territory.width);
+                        if (!!territory.dates) {
+                            if (!isNaN(territory.dates.start)) {
+                                territory.xPos = parseInt(territory.dates.start) / width;
+
+                                if (!isNaN(territory.dates.end)) {
+                                    territory.width = ((parseInt(territory.dates.end) - parseInt(territory.dates.start)) * width / timeSpan);
+                                    if (territory.width < 0) {
+                                        console.error('Invalid life span for territory '+territory.name+' : '+territory.width);
+                                        territory.width = 15;
+                                    }
+                                }
                             }
-                            territory.width = Math.max(territory.width, 15);
                         }
                         else {
                             territory.width = 15;
