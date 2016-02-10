@@ -150,9 +150,7 @@
                         if (parsedDates[0]) {
                             territory.xPos = parsedDates[0] / width;
                             if (parsedDates[1]) {
-                                territory.start = parsedDates[0];
-                                territory.end = parsedDates[1];
-                                territory.width = Math.max(territory.end - territory.start, defaultTerritoryWidth) * (width / timeSpan);
+                                territory.width = Math.max(parsedDates[1] - parsedDates[0], defaultTerritoryWidth) * (width / timeSpan);
                             }
                         }
                         if (territory.width < 0) {
