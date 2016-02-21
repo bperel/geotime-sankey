@@ -9,7 +9,7 @@ d3.sankey = function() {
       cycleLaneNarrowWidth = 4,
       cycleLaneDistFromFwdPaths = -10,  // the distance above the paths to start showing 'cycle lanes'
       cycleDistFromNode = 30,      // linear path distance before arcing from node
-      cycleControlPointDist = 30,  // controls the significance of the cycle's arc
+      cycleControlPointDist = 20,  // controls the significance of the cycle's arc
       cycleSmallWidthBuffer = 2  // distance between 'cycle lanes'
       ;
 
@@ -96,49 +96,27 @@ d3.sankey = function() {
       if( d.causesCycle ) {
         // cycle node; reaches backward
 
-        /*
-         The path will look like this, where
-         s=source, t=target, ?q=quadratic focus point
-         (wq)-> /-----n-----\
-         |w          |
-         |           e
-         \-t         |
-         s--/ <-(eq)
-         */
-        // Enclosed shape using curves n' stuff
-        var smallWidth = cycleLaneNarrowWidth,
+        var source = {height: d.source.dy},
+            target = {height: d.target.dy};
 
-            s_x = d.source.x + d.source.dx,
-            s_y = d.source.y + d.sy + d.dy,
-            t_x = d.target.x,
-            t_y = d.target.y,
-            sw_x = t_x - cycleDistFromNode,
-            sw_y = t_y + d.ty + d.dy,
-            se_x = s_x + cycleDistFromNode,
-            se_y = s_y,
-            ne_x = se_x,
-            ne_y = t_y - smallWidth - cycleSmallWidthBuffer,  // above regular paths, in it's own 'cycle lane', with a buffer around it
-            nw_x = sw_x,
-            nw_y = ne_y;
+        source.w = d.source.x;
+        source.e = d.source.x + cycleDistFromNode + source.height / 2;
+        source.s = d.source.y + source.height/2;
+        source.n = d.source.y - source.height/2;
 
-        // start the path on the outer path boundary
-        return "M" + s_x + "," + s_y
-            + "L" + se_x + "," + se_y
-            + "C" + (se_x + cycleControlPointDist) + "," + se_y + " " + (ne_x + cycleControlPointDist) + "," + ne_y + " " + ne_x + "," + ne_y
-            + "H" + nw_x
-            + "C" + (nw_x - cycleControlPointDist) + "," + nw_y + " " + (sw_x - cycleControlPointDist) + "," + sw_y + " " + sw_x + "," + sw_y
-            + "H" + t_x
-              //moving to inner path boundary
-            + "V" + ( t_y + d.ty )
-            + "H" + sw_x
-            + "C" + (sw_x - (cycleControlPointDist/2) + smallWidth) + "," + t_y + " " +
-            (nw_x - (cycleControlPointDist/2) + smallWidth) + "," + (nw_y + smallWidth) + " " +
-            nw_x + "," + (nw_y + smallWidth)
-            + "H" + (ne_x - smallWidth)
-            + "C" + (ne_x + (cycleControlPointDist/2) - smallWidth) + "," + (ne_y + smallWidth) + " " +
-            (se_x + (cycleControlPointDist/2) - smallWidth) + "," + (se_y - d.dy) + " " +
-            se_x + "," + (se_y - d.dy)
-            + "L" + s_x + "," + (s_y - d.dy);
+        target.w = d.target.x - cycleDistFromNode - target.height/2;
+        target.e = d.target.x;
+        target.s = d.target.y + target.height/2;
+        target.n = d.target.y - target.height/2;
+
+        var xi = d3.interpolateNumber(source.w, target.e),
+            x2 = xi(curvature),
+            x3 = xi(1 - curvature);
+
+        return "M" +  source.w + "," + source.s
+             + "C" + [source.e + "," + source.s, source.e + "," + source.n, source.w + "," + source.n].join(' ')
+             + "C" + [      x2 + "," + source.n,       x3 + "," + target.n, target.e + "," + target.n].join(' ')
+             + "C" + [target.w + "," + target.n, target.w + "," + target.s, target.e + "," + target.s].join(' ');
 
       } else {
         // regular forward node

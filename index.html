@@ -20,10 +20,13 @@
     </p>
     <button onclick="go()">Go</button>
     <script type="text/javascript">
+        var sankey;
+
         function go() {
             var margin = {top: 1, right: 1, bottom: 6, left: 1},
                 width = 1000 - margin.left - margin.right,
-                height = 500 - margin.top - margin.bottom;
+                height = 500 - margin.top - margin.bottom,
+                cyclePathWidth = 20;
 
             var dateFormat = /^([0-9]{0,4})-([0-9]{2})-([0-9]{2})$/g;
             var color = d3.scale.category20();
@@ -35,7 +38,7 @@
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-            var sankey = d3.sankey()
+            sankey = d3.sankey()
                 .nodeWidth(defaultTerritoryWidth)
                 .nodePadding(10)
                 .size([width, height]);
@@ -65,7 +68,7 @@
                     })
                     .attr("d", path)
                     .style("stroke-width", function (d) {
-                        return Math.max(1, d.dy);
+                        return Math.max(1, d.causesCycle ? Math.min(cyclePathWidth, d.dy) : d.dy);
                     })
                     .sort(function (a, b) {
                         return b.dy - a.dy;
